@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+img {
+	width: 100%;
+	height: 270px;
+	border-radius: 10px;
+}
+
+span {
+	padding: 0 5px;
+}
+header {
+	background-color: #2a9d8f;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 40px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+.links {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.links li {
+	list-style: none;
+	padding: 0 10px;
+}
+
+.links li:hover {
+	background-color: #8ecae6;
+	border-radius: 10px;
+}
+
+.links li:hover a {
+	color: #03071e;
+}
+
+.links li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.bx {
+	padding: 0 8px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+    margin-top: 80px;
+}
+
+.container .products {
+	width: 200px;
+	height: 350px;
+	box-shadow: 2px 2px 2px #606c38;
+	border-radius: 10px;
+}
+
+.container .products a {
+	background-color: #ff7b00;
+	padding: 0px 10px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.container .products a:hover {
+	background-color: #ffa200;
+}
+
+.product-container {
+    max-width: 750px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.product-container .bx {
+    font-size: 25px;
+    color: #3a86ff;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    left: 100px;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 750px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid #2a9d8f;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.cart-products {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.product-container .cart-products img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.product-container .cart-products product {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 12px;
+    background-color: #fb5607;
+    color: #fff;
+}
+
